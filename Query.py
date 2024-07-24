@@ -7,8 +7,8 @@ try:
         host=st.secrets["mysql"]["host"],
         port=st.secrets["mysql"]["port"],
         user=st.secrets["mysql"]["user"],
-        passwd=st.secrets["mysql"]["password"],
-        db=st.secrets["mysql"]["database"]
+        password=st.secrets["mysql"]["password"],
+        database=st.secrets["mysql"]["database"]
     )
     cursor = connection.cursor()
 except conn.Error as err:

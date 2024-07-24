@@ -5,3 +5,4 @@ plotly==5.5.0
 streamlit-option-menu==0.3.2
 numerize==0.10.0
 mysql-connector-python==9.0.0
+
