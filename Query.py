@@ -1,17 +1,21 @@
 import mysql.connector as conn
 import streamlit as st
-import mysql
 
-conn = mysql.connector.connect(
-    host = "localhost",
-    port = "3306",
-    user = "root",
-    passwd = "",
-    db = "mydatabase"
-)
-c=conn.cursor()
+# Establish a connection to the database using secrets
+try:
+    connection = conn.connect(
+        host=st.secrets["mysql"]["host"],
+        port=st.secrets["mysql"]["port"],
+        user=st.secrets["mysql"]["user"],
+        passwd=st.secrets["mysql"]["password"],
+        db=st.secrets["mysql"]["database"]
+    )
+    cursor = connection.cursor()
+except conn.Error as err:
+    st.error(f"Error: {err}")
+    st.stop()
 
-def view_all_data() :
-    c.execute('select * from insurance_data order by id asc')
-    data = c.fetchall()
+def view_all_data():
+    cursor.execute('SELECT * FROM insurance_data ORDER BY id ASC')
+    data = cursor.fetchall()
     return data
