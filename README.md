@@ -52,3 +52,6 @@ https://www.linkedin.com/in/vathsalyapakalapati
 
 ****Project URL****
 
+https://vathsalya9-insurance-data-analytics-app-4armvq.streamlit.app/
+
+
