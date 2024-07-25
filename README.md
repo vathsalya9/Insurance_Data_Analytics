@@ -2,7 +2,7 @@ This project involves the development of an insurance data analytics report usin
 
 ****INSURANCE DATA ANALYTICS****
 
-<img width="239" alt="image" src="https://github.com/user-attachments/assets/05c5348c-03ed-4ec5-b52b-32bfe26031dc">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/d7ac89c4-fa41-47ee-afa4-d5971c8b744c">
 
 
 **Introduction**
