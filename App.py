@@ -7,7 +7,6 @@ from Query import view_all_data
 import time
 
 #h
-
 st.set_page_config(page_title="Insurance Dashboard", page_icon="📶", layout="wide")
 st.subheader("📶 Insurance Analytical Reporting")
 st.markdown("###")

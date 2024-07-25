@@ -1,3 +1,4 @@
+print("Query.py loaded")
 import mysql.connector
 import streamlit as st
 
