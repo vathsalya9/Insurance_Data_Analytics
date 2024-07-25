@@ -11,6 +11,8 @@ conn = mysql.connector.connect(
     )
 cursor = conn.cursor()
 
+print("Hello")
+
 def view_all_data():
     cursor.execute('SELECT * FROM insurance_data ORDER BY id ASC')
     data = cursor.fetchall()
