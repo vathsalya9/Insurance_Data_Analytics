@@ -1,10 +1,6 @@
 This project involves the development of an insurance data analytics report using Streamlit for the frontend and a PHP Apache server for the backend.
 
-<img width="956" alt="image" src="https://github.com/user-attachments/assets/a7094149-3d16-4242-9975-8545908b18a4">
-
-<img width="957" alt="image" src="https://github.com/user-attachments/assets/1ef19112-80c7-45f1-b20b-2d7ac7bb2acc">
-
-<img width="951" alt="image" src="https://github.com/user-attachments/assets/10cd632e-a2de-4951-8887-fcbb181353c3">
+****INSURANCE DATA ANALYTICS****
 
 **Introduction**
 
@@ -21,19 +17,26 @@ Real-time data updates and analytics.
 
 Before you begin, ensure you have met the following requirements:
 
-Python 3.7 or higher
-PHP 7.4 or higher
-Apache server
-Streamlit library
+streamlit==1.12.0
+pandas==1.3.5
+numpy==1.26.4
+plotly==5.5.0
+streamlit-option-menu==0.3.2
+numerize==0.10.0
+mysql-connector-python==9.0.0
 
 **Technologies Used**
 
-Frontend: Streamlit, Python
-Backend: PHP, Apache server
+Frontend: Streamlit, Python, ngrok
+Backend: PHP, Apache server, MySQL
 Data Visualization: Matplotlib, Seaborn, Plotly
 
 **Contact**
 
+Vathasalya Pakalapati
 vpakalap@syr.edu
+https://www.linkedin.com/in/vathsalyapakalapati/
 
 **Project Link:** 
+
+https://6ce4-108-40-127-67.ngrok-free.app/
