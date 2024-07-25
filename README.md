@@ -2,6 +2,9 @@ This project involves the development of an insurance data analytics report usin
 
 ****INSURANCE DATA ANALYTICS****
 
+<img width="239" alt="image" src="https://github.com/user-attachments/assets/05c5348c-03ed-4ec5-b52b-32bfe26031dc">
+
+
 **Introduction**
 
 The Insurance Data Analytics project aims to provide insightful analytics and visualizations for insurance data. By leveraging Streamlit for interactive visualizations and a PHP Apache server for backend data processing, this project delivers an efficient and user-friendly experience for analyzing insurance-related datasets.
@@ -35,8 +38,4 @@ Data Visualization: Matplotlib, Seaborn, Plotly
 
 Vathasalya Pakalapati
 vpakalap@syr.edu
-https://www.linkedin.com/in/vathsalyapakalapati/
-
-**Project Link:** 
-
-https://6ce4-108-40-127-67.ngrok-free.app/
+https://www.linkedin.com/in/vathsalyapakalapati
