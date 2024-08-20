@@ -1,6 +1,6 @@
 This project involves the development of an insurance data analytics report using Streamlit for the frontend and a PHP Apache server for the backend.
 
-********INSURANCE DATA ANALYTICS********
+## INSURANCE DATA ANALYTICS
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/d7ac89c4-fa41-47ee-afa4-d5971c8b744c">
 
